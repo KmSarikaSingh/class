@@ -5,6 +5,7 @@ This is a simple HTML and JavaScript code that allows you to change the properti
 
 # 1. HTML
 he HTML code creates a container div and a target div.
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
