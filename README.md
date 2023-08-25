@@ -1,10 +1,63 @@
 # Drop Down
 This is a simple HTML and JavaScript code that allows you to change the properties of a div element.
 
-
-
 # 1. HTML
 he HTML code creates a container div and a target div.
 
-
-https://github.com/KmSarikaSingh/class/issues/2#issue-1867267959
+'''
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DropDowns</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <label for="color">Color:</label>
+        <select id="color">
+          <option value="yellow">Yello</option>
+          <option value="green">Green</option>
+          <option value="blue">Blue</option>
+      
+        </select>
+        
+      
+        <label for="backgroundcolor">Background Color:</label>
+        <select id="backgroundcolor">
+          <option value="lightgreen">Light Green</option>
+          <option value="lightgray">Light Gray</option>
+          <option value="lightblue">Light Blue</option>
+      
+        </select>
+      
+        <label for="padding ">Padding:</label>
+        <select id="padding ">
+          <option value="0">0</option>
+          <option value="5px">5px</option>
+          <option value="20px">20px</option>
+      
+        </select>
+      
+        <label for="fontSize ">Font Size:</label>
+        <select id="fontSize ">
+          <option value="10px">10px</option>
+          <option value="12px">12px</option>
+          <option value="20px">20px</option>
+       
+        </select>
+      
+        <label for="fontWeight ">Font Weight:</label>
+        <select id="fontWeight ">
+          <option value="normal">Normal</option>
+          <option value="bold">Bold</option>
+          
+        </select>
+      </div>
+      
+        <div id="targetDiv">This is a simple div.</div>
+        <script src="index.js"></script>
+</body>
+</html>
+'''
