@@ -1,10 +1,12 @@
 # Drop Down
 This is a simple HTML and JavaScript code that allows you to change the properties of a div element.
 
-# 1. HTML
-he HTML code creates a container div and a target div.
+hosted Link- https://kmsarikasingh.github.io/class/
 
-'''
+# 1. HTML
+The HTML code creates a container div and a target div.
+
+```
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -60,4 +62,35 @@ he HTML code creates a container div and a target div.
         <script src="index.js"></script>
 </body>
 </html>
-'''
+```
+
+# 2.JavaScript
+
+```
+const col = document.getElementById('color');
+const background = document.getElementById('backgroundcolor');
+const padding  = document.getElementById('padding ');
+const fontSize  = document.getElementById('fontSize ');
+const fontWeight  = document.getElementById('fontWeight ');
+const target = document.getElementById('targetDiv');
+
+color.addEventListener('change', () => {
+  target.style.color = col.value;
+});
+
+backgroundcolor.addEventListener('change', () => {
+  target.style.backgroundColor = background.value;
+});
+
+padding .addEventListener('change', () => {
+  target.style.padding = padding .value;
+});
+
+fontSize .addEventListener('change', () => {
+  target.style.fontSize = fontSize .value;
+});
+
+fontWeight .addEventListener('change', () => {
+  target.style.fontWeight = fontWeight .value;
+});
+```
